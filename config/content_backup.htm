@@ -112,6 +112,39 @@ document.getElementById("iframe").height = 600 ;
 <p>
 <script src="/get_page/downloads\Dart_ex\CF\CF.js"></script>
 </p>
-<div id="gtx-trans" style="position: absolute; left: 3px; top: 5816.8px;">
-<div class="gtx-trans-icon"></div>
-</div>
+<script>
+function getDart(dirname){
+    source = "https://dartpad.github.io/embed-dart.html?gh_owner=40823234&gh_repo=cp2019&gh_path=downloads/Dart_ex/" + dirname + "&theme=dark";
+    document.getElementById("iframe").src = source ;
+}
+
+function getHtmlDart(dirname){
+    source = "https://dartpad.github.io/embed-html.html?gh_owner=40823234&gh_repo=cp2019&gh_path=downloads/Dart_ex/" + dirname + "&theme=dark";
+document.getElementById("iframe").src = source ;
+}
+
+function getFlutter(dirname){
+    source = "https://dartpad.github.io/embed-flutter.html?gh_owner=40823234&gh_repo=cp2019&gh_path=downloads/Dart_ex/" + dirname + "&theme=dark";
+document.getElementById("iframe").src = source ;
+}
+
+function largest(){
+document.getElementById("iframe").width = document.body.clientWidth ;
+document.getElementById("iframe").height = document.body.clientWidth*0.5 ;
+}
+
+function original(){
+document.getElementById("iframe").width = 800 ;
+document.getElementById("iframe").height = 600 ;
+}
+</script>
+<h4>純 Dart 程式</h4>
+<p><button onclick="getDart('weight-dart')">重量轉換</button></p>
+<h4>Html 程式</h4>
+<p><button onclick="getHtmlDart('weight')">重量轉換</button></p>
+<p><button onclick="getHtmlDart('flag')">各國國旗</button></p>
+<!-- 內建放入的 Dart 原始碼 -->
+<p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
+<p><br/><iframe height="600" id="iframe" src="https://dartpad.github.io/embed-dart.html?gh_owner=40823234&amp;gh_repo=cp2019&amp;gh_path=downloads/Dart_ex/weight-dart&amp;theme=dark" width="800"></iframe>.</p>
+<p>請輸入所要轉換的重量<br/>以數字加上 kg 或 lb:<br/><br/><input id="temp" max="30" min="1" type="text" value="20kg"/> <input id="submit" type="button" value="換算"/><br/> <br/>轉換結果:<br/><br/><label id="output"></label></p>
+<script src="/../cp2019/downloads/Dart_ex/weight/weight.js"></script>

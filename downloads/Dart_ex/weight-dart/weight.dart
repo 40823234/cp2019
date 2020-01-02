@@ -1,8 +1,8 @@
 GtoB(num g){
-return g*2.2;
+return g*2.2046;
 }
 BtoG(num b){
-return b*0.45;
+return b*0.4535;
 }
 main(){
 var type;
@@ -15,9 +15,9 @@ type = i[len-2];
 number = i.substring(0, len-2);
 number = int.parse(number);
 if (type == "k"){
-print(" $number kg =  ${GtoB(number).toStringAsFixed(2)} lb");
+print(" $number kg =  ${GtoB(number).toStringAsFixed(4)} lb");
 }else{
-print(" $number lb =  ${BtoG(number).toStringAsFixed(2)} kg");
+print(" $number lb =  ${BtoG(number).toStringAsFixed(4)} kg");
 }
 }
 }

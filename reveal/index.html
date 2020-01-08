@@ -39,12 +39,12 @@ CMSimfly 網際內容管理
 <div class="slides">
 <section data-markdown>
     <script type="text/template">
-## CMSimfly 網際內容管理
+## 2019 FALL 40823234 計算機程式課程
 
-### KMOLab
+### 游子毅
 
 <small>
-Created by [KMOLab](http://lab.kmol.info/)
+Created by [40823234](https://40823234.github.io/cp2019/content/index.html)
 </small>
 
 [CMSimfly 網誌](./../blog/index.html)
@@ -57,14 +57,12 @@ Created by [KMOLab](http://lab.kmol.info/)
 						
 <section data-markdown>
     <script type="text/template">
-# 投影片快捷鍵
+# 目錄
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+* [溫度的轉換](
+*[重量單位轉換]
+* [繪製國旗]
+* [心得]
 
     </script>
 </section>
@@ -75,67 +73,42 @@ Created by [KMOLab](http://lab.kmol.info/)
 <section data-markdown>
     <script type="text/template">
 <!-- 請注意, @others 不可以內縮 -->
-# 數學符號與方程式
+# 重量單位轉換
 
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
+<iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823234&gh_repo=cp2019&gh_path=downloads/Dart_ex/weight-dart&theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </script>
+</section>
+# 溫度的轉換
 
-$$I = \int \rho R^{2} dV$$
+<iframe src="https://dartpad.github.io/embed-html.html?gh_owner=40823251&gh_repo=cp2019&gh_path=downloads/dart_ex/temp1&theme=dark" width="800" height="550"></iframe>
+    </script>
+</section>
+#繪製國旗
+
+<iframe src="https://dartpad.github.io/embed-html.html?gh_owner=40823234&gh_repo=cp2019&gh_path=downloads/Dart_ex/roc_flag&theme=dark" width="800" height="550"></iframe>
+    </script>
+</section>
     </script>
 </section>
 
 
 
 						
+</section>
+
 <section data-markdown>
     <script type="text/template">
 <!-- 請注意, @others 不可以內縮 -->
-## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
+## 心得
 
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
+###從一開始簡單的印出hello world接者加入一些功能鍵後來溫度轉換識別符號最後在dartpad畫國旗雖然學的過程很難但這是未來必須用到的。
+
     </script>
 </section>
 
 
 
 						
-<section data-markdown>
-    <script type="text/template">
-## 使用 iframe 導入影片
-
-### 導入影片 template
-
-<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    </script>
-</section>
-
-
-						
-</section>
-
 </div>
 
 </div>

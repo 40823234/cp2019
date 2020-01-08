@@ -71,7 +71,7 @@ Created by [40823234](https://40823234.github.io/cp2019/content/index.html)
 </t>
 <t tx="leo.20180902120523.12"># 目錄
 
-* [溫度的轉換](https://40823234.github.io/cp2019/reveal/index.html#/2)
+* [溫度轉換](https://40823234.github.io/cp2019/reveal/index.html#/2)
 *[重量單位轉換](https://40823234.github.io/cp2019/reveal/index.html#/3)
 * [繪製國旗](https://40823234.github.io/cp2019/reveal/index.html#/4)
 * [心得](https://40823234.github.io/cp2019/reveal/index.html#/5)

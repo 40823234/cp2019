@@ -27,7 +27,11 @@
 <v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
 <v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
 <v t="leo.20200108193925.1"><vh>newHeadline</vh></v>
+</v>
+<v t="leo.20200108203955.1"><vh>newHeadline</vh>
 <v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
+</v>
+<v t="leo.20200108204128.1"><vh>newHeadline</vh>
 <v t="leo.20200108194357.1"><vh>newHeadline</vh></v>
 </v>
 </v>
@@ -283,6 +287,7 @@ QLineEdit#editorLabel {
 vertical: body pane on the botton</t>
 <t tx="leo.20200108193925.1"># 重量單位轉換
 
+
 &lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823234&amp;gh_repo=cp2019&amp;gh_path=downloads/Dart_ex/weight-dart&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
     &lt;/script&gt;
 &lt;/section&gt;
@@ -290,6 +295,20 @@ vertical: body pane on the botton</t>
 <t tx="leo.20200108194357.1">#繪製國旗
 
 &lt;iframe src="https://dartpad.github.io/embed-html.html?gh_owner=40823234&amp;gh_repo=cp2019&amp;gh_path=downloads/Dart_ex/roc_flag&amp;theme=dark" width="800" height="550"&gt;&lt;/iframe&gt;
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200108203955.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200108204128.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
     &lt;/script&gt;
 &lt;/section&gt;
 </t>
